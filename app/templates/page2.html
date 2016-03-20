@@ -36,20 +36,21 @@
       </nav>
     </div>
 
-    <div class="jumbotron">
+    <div class="row marketing">
       <h2>Iris Dataset</h2>
-      <p class="lead">An example of the Iris dataset in Flask after Principal Component Analysis. Click <a href="/">here</a> to see results for the original dataset.</p>
+      <p class="lead">An example of the Iris dataset in Flask.<br/>
+      Click <a href="/">here</a> to toggle the Principal Component Analysis.</p>
     </div>
 
     <div class="row marketing">
       <div class="col-lg-6" id="plot">
-        <h4>Iris Dataset after Principal Component Analysis (PCA)</h4>
+        <h4>Iris Dataset with PCA</h4>
         <p>Component 2 vs. Component 1 for the Iris dataset.</p>
       </div>
     </div>
 
     <footer class="footer">
-      <p>&copy; E.J. White, 2015</p>
+      <p>E.J. White, 2016</p>
     </footer>
 
   </div> <!-- /container -->
@@ -58,8 +59,8 @@
 <script>
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 800 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    width = 600 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
